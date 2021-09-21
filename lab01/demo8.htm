@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" href="img/images.png" />
+    <title>Document</title>
+</head>
+
+<body>
+    <p>demo event</p>
+    <div>
+        <label>so a</label>
+        <input type="text" id="soa" />
+    </div>
+    <div>
+        <label>so b</label>
+        <input type="text" id="sob" />
+    </div>
+    <button type="buttonPlus" id="btncong">plus</button>
+    <button type="buttonMinus" id="btntru">Minus</button>
+    <button type="buttonMutilypy" id="btnnhan">Mutilypy</button>
+    <button type="buttonDivision" id="btnchia">Division</button>
+    <div>
+        ket qua <span></span>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("div").css("margin", "5px");
+            $("#btncong").click(function() {
+                var soa = parseInt($("#soa").val());
+                var sob = parseInt($("#sob").val());
+                $("span").text(soa + sob);
+            });
+            $("#btntru").click(function() {
+                var soa = parseInt($("#soa").val());
+                var sob = parseInt($("#sob").val());
+                $("span").text(soa - sob);
+            });
+            $("#btnnhan").click(function() {
+                var soa = parseInt($("#soa").val());
+                var sob = parseInt($("#sob").val());
+                $("span").text(soa * sob);
+            });
+            $("#btnchia").click(function() {
+                var soa = parseInt($("#soa").val());
+                var sob = parseInt($("#sob").val());
+                if (sob == 0) {
+                    $("span").text("loi chia zero");
+                } else {
+                    $("span").text(soa / sob);
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
