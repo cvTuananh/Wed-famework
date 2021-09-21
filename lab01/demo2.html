@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" href="img/images.png">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Selector</h1>
+    <ul id="id">
+        <li class="a">item1</li>
+        <li class="a">item2</li>
+        <li class="b">item3</li>
+        <li class="b">item4</li>
+        <li>
+            <p>this is para inside 01</p>
+            <div>
+                <p>this is para inside 02</p>
+            </div>
+        </li>
+    </ul>
+
+    <p class="a">This is page A class A</p>
+    <p id="para2">this is page #para2</p>
+    <p class="b">This is page B class B</p>
+    <p>this is praaga</p>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("p").css("border", "1px solid #cc3366");
+            $(".a").css("background-color", "#33cc66");
+            $("#para2").css("background-color", "#3366cc");
+            $("li p").css("font-weight", "bold");
+        });
+    </script>
+
+</body>
+
+</html>
