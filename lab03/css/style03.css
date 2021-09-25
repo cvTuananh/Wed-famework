@@ -1,0 +1,35 @@
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+h1 {
+  color: #f48fb1;
+}
+
+div {
+  background-color: #90caf9;
+  margin: 5px;
+}
+
+nav div {
+  color: #f48fb1;
+  background-color: #fff;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  background-color: #90caf9;
+  margin: 1px 0 0 0;
+  padding: 5px 10px;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #f48fb1;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+/*# sourceMappingURL=style03.css.map */

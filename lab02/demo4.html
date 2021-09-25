@@ -29,6 +29,7 @@
                 method: "GET",
                 dataType: "json"
             }).done(function(data) {
+                // console.log(data);
                 for (const [key, value] of Object.entries(data.currencies)) {
                     $("#from").append(`<option value='${key}'>${value}</option>`);
                     $("#to").append(`<option value='${key}'>${value}</option>`);
@@ -43,7 +44,8 @@
                     method: "GET",
                     dataType: "json"
                 }).done(function(data) {
-                    $("span").text(data.result[to]);
+                    console.log(data);
+                    // $("span").text(data.result[to]);
                 })
             })
         });
