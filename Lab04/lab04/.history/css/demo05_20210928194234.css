@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+}
+nav{
+    background-color: pink;
+    height: 300px;
+}
+aside{
+    background-color: plum;
+    height: 300px;
+    width: 200px;
+    float: left;
+}
+article{
+    background-color: rosybrown;
+    height: 500px;
+}
+
+footer{
+    background-color: rgb(185, 96, 185);
+    height: 200px;
+}

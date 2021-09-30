@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    overflow: hidden;
+    background-color: brown;
+}
+section{
+    width: 90%;
+    margin: 0 auto;
+}
+nav{
+    background-color: pink;
+    height: 100px;
+}
+aside{
+    background-color: plum;
+    height: 300px;
+    width: 20%;
+    float: left;
+}
+article{
+    background-color: rosybrown;
+    height: 500px;
+    width: 80%;
+    float: left;
+}
+
+footer{
+    background-color: rgb(185, 96, 185);
+    height: 200px;
+}
+.column{
+    width: 31%;
+    margin: 20px 1.15%;
+    height: 160px;
+    background-color: chartreuse;
+}
