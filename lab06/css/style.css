@@ -86,6 +86,13 @@ h3 {
     font-style: italic;
 }
 
+h4 {
+    font-weight: 700 !important;
+    font-size: 1.0rem !important;
+    text-transform: uppercase;
+    color: yellow;
+}
+
 p {
     font-weight: 300 !important;
     font-size: 1.25rem !important;
@@ -109,4 +116,10 @@ p {
 
 #about {
     min-height: 100vh;
+}
+
+#Service {
+    min-height: 100vh;
+    background-color: var(--color-green);
+    color: #fff;
 }
